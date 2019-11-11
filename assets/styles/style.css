@@ -89,3 +89,24 @@ h2._left{
     color: #ff9a47;
     font-size: 32px;
 }
+
+/*.img-overlay {*/
+/*    background-color:rgba(0,0,0,0.4);*/
+/*    height: 320px;*/
+/*}*/
+/*.bottom{*/
+/*    background-image: url('../images/imagebckgrnd.png') ;*/
+/*    background-repeat: no-repeat;*/
+/*    height: 320px;*/
+/*}*/
+.download_img{
+    background-image: url('../images/imagebckgrnd.png') ;
+    background-repeat: no-repeat;
+    background-size: 127%;
+    background-position: center;
+
+}
+.download_back{
+    background-color:rgba(0,0,0,0.4);
+    height: 320px;
+}
