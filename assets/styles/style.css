@@ -22,12 +22,12 @@ h2{
 }
 
 h2:after{
-    content: '';
-    display: block;
-    width: 64px;
-    height: 2px;
-    background-color: #e58a38;
-    margin: 22px auto 0;
+        content: '';
+        display: block;
+        width: 64px;
+        height: 2px;
+        background-color: #e58a38;
+        margin: 22px auto 0;
 }
 
 h3 {
@@ -41,9 +41,6 @@ h2._left {
     text-align: left;
 }
 
-h2._left{
-    text-align: left;
-}
 .benefit_h3 {
     margin-bottom: 22px;
 
@@ -90,23 +87,23 @@ h2._left{
     font-size: 32px;
 }
 
-/*.img-overlay {*/
-/*    background-color:rgba(0,0,0,0.4);*/
-/*    height: 320px;*/
-/*}*/
-/*.bottom{*/
-/*    background-image: url('../images/imagebckgrnd.png') ;*/
-/*    background-repeat: no-repeat;*/
-/*    height: 320px;*/
-/*}*/
 .download_img{
     background-image: url('../images/imagebckgrnd.png') ;
     background-repeat: no-repeat;
-    background-size: 127%;
+    background-size: cover;
     background-position: center;
-
 }
 .download_back{
     background-color:rgba(0,0,0,0.4);
     height: 320px;
+}
+ .white {
+     color: #ffffff;
+     padding: 75px;
+      }
+line:after {
+    background-color: #ffffff;
+    margin: 30px auto 0;
+
+
 }
